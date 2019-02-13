@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url('../media/photos/banner-photo.jpg') no-repeat center center;
+	background-size: cover;
+}
+/*HEADER*/
+	header{
+		background-color: rgba(0,0,0,0.6);
+	}
+	.headercontainer{
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 5px 0;
+		width: 100%;
+	}
+	.headerimage{
+		display: block;
+		width: 5%;
+	}
+	.headerimage img{
+		width: 100%;
+	}
+	.headerimage a{
+		margin: 0;
+	}
+	header ul{
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		list-style: none;
+	}
+	header a{
+		border: 0px solid #fff;
+		color: #fff;
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 18px;
+		margin: 0 30px;
+		text-decoration: none;
+		transition: all .1s ease-in-out;
+	}
+	.hoverlinks:hover{
+		border-bottom: 2px solid #fff;
+		padding-bottom: 5px;
+		max-width: 50px;
+	}
+/*JUMBOTRON*/
+	.jumbotron{
+		margin: 0 auto;
+		max-width: 1200px;
+		padding-top: 40px;
+		width: 100%;
+	}
+	.jumbotronimage{
+		width: 35%;
+	}
+	.jumbotronimage img{
+		width: 100%;
+	}
